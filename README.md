@@ -1,3 +1,3 @@
 # Spanish Recipes
 
-Simple HTML-only webpage with three popular Spanish recipes. To be styled with CSS in the future.
+Simple HTML website with three popular Spanish recipes styled with some basic CSS.

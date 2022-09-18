@@ -1,0 +1,119 @@
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+	padding: 0 5px;
+	margin: 0;
+  max-width: 605px;
+  margin: auto;
+  line-height: 1.2;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  border: 2px black solid;
+}
+
+h1 {
+  background-color: rgb(177, 1, 1);
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+h2 {
+  background-color: rgb(192, 192, 192);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+h3 {
+  width: 200px;
+  margin: 20px auto 0px;
+  background-color: rgb(235, 235, 235);
+  padding: 5px;
+  border-radius: 8px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  margin: auto;
+  border: 2px black solid;
+  border-radius: 15px;
+}
+
+a {
+  text-decoration: none;
+	color: black;
+}
+
+ul,
+ol {
+  padding-left: 16px;
+}
+
+.list-recipes {
+  width: 250px;
+  margin: auto;
+}
+
+.list-recipes li {
+  font-size: 20px;
+  line-height: 2;
+}
+
+.list-recipes a:hover {
+  font-weight: bold;
+}
+
+.div-center {
+  text-align: center;
+  margin: 40px;
+}
+
+.btn {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(177, 1, 1);
+  padding: 10px 20px;
+  border: 2px black solid;
+  border-radius: 10px;
+  transition: 0.2s ease-in-out;
+}
+
+.btn:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.ingredients {
+  width: 75%;
+  margin: auto;
+}
+
+.description p,
+.steps li,
+.tips li {
+  text-align: justify;
+}
+
+.ingredients li,
+.steps li,
+.tips li {
+  text-align: justify;
+}
+
+.ingredients li {
+  margin: 5px 0;
+}
+
+.steps li,
+.tips li {
+  margin: 10px 0;
+}
